@@ -1,9 +1,17 @@
 @media (max-width:600px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        align-items: center;
+    }
     .top-banner{
         width: 100vh;
         width: 500px;
         display: block;
         align-items: center;
+        margin-left: 50px ;
+        margin-top: 50px;
     }
     .banner-info{
         width: 300px;
@@ -25,21 +33,42 @@
     }
 
     .match-blog-section{
-        margin: auto;
-        border: none;
+        width: 500px;
+        margin-left: 50px;
         background-color: white;
         text-align: center;
     }
     .match-blog-section a{
-        padding: 15px 20px;
-        border-radius: 10px;
+        width: 70%;
+        margin: auto;
         border: 1px solid rgb(151, 151, 151);
+    }
+    .match-blog-section a:last-child{
+        width: 40%;
     }
     .main-box{
         display: block;
     }
     .box{
-        width: 400px;
-        margin: auto;
+        width: 500px;
+        height: 450px;
+        margin-top: 30px;
+        margin-left: 60px;
+        
+    }
+    footer{
+        width: 600px;
+        height: 100%;
+        margin-top: 80px;
+    }
+    .about{
+        display: block;
+        text-align: center;
+    }
+    .about p{
+        margin-bottom: 30px;
+    }
+    .social-icon{
+        padding-bottom: 30px;
     }
 }
