@@ -1,0 +1,45 @@
+@media (max-width:600px){
+    .top-banner{
+        width: 100vh;
+        width: 500px;
+        display: block;
+        align-items: center;
+    }
+    .banner-info{
+        width: 300px;
+        margin-bottom: 30px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .banner-image img{
+        width: 350px;
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+
+    .all-items{
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+
+    .match-blog-section{
+        margin: auto;
+        border: none;
+        background-color: white;
+        text-align: center;
+    }
+    .match-blog-section a{
+        padding: 15px 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(151, 151, 151);
+    }
+    .main-box{
+        display: block;
+    }
+    .box{
+        width: 400px;
+        margin: auto;
+    }
+}
